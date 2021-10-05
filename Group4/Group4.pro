@@ -18,15 +18,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    reaksaui1.cpp
+    reaksaui1.cpp \
+    shaun.cpp
 
 HEADERS += \
     mainwindow.h \
-    reaksaui1.h
+    reaksaui1.h \
+    shaun.h
 
 FORMS += \
     mainwindow.ui \
-    reaksaui1.ui
+    reaksaui1.ui \
+    shaun.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
