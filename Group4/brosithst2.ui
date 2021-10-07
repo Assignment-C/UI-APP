@@ -24,8 +24,8 @@
     <rect>
      <x>160</x>
      <y>130</y>
-     <width>351</width>
-     <height>261</height>
+     <width>361</width>
+     <height>251</height>
     </rect>
    </property>
    <property name="whatsThis">
@@ -233,8 +233,8 @@ background-color: rgb(85, 85, 255);
     <rect>
      <x>280</x>
      <y>70</y>
-     <width>104</width>
-     <height>38</height>
+     <width>171</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">

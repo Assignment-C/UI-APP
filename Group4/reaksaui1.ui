@@ -1,21 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
- <class>ReakSaUI1</class>
- <widget class="QWidget" name="ReakSaUI1">
+ <class>tooltest</class>
+ <widget class="QWidget" name="tooltest">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1069</width>
+    <height>517</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="5">
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="text">
+      <string>Advacne Test</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6">
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="text">
+      <string>Even</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </item>
+   <item row="0" column="4">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Acadimic Test</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Simple Test</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>
