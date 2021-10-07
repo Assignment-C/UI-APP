@@ -21,6 +21,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     reaksaui1.cpp \
+    reaksaui2.cpp \
     shaun.cpp
 
 HEADERS += \
@@ -28,6 +29,7 @@ HEADERS += \
     brosithst3.h \
     mainwindow.h \
     reaksaui1.h \
+    reaksaui2.h \
     shaun.h
 
 FORMS += \
@@ -35,6 +37,7 @@ FORMS += \
     brosithst3.ui \
     mainwindow.ui \
     reaksaui1.ui \
+    reaksaui2.ui \
     shaun.ui
 
 # Default rules for deployment.
