@@ -18,6 +18,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     brosithst2.cpp \
     brosithst3.cpp \
+    hea.cpp \
+    heaui7.cpp \
     main.cpp \
     mainwindow.cpp \
     reaksaui1.cpp \
@@ -27,6 +29,8 @@ SOURCES += \
 HEADERS += \
     brosithst2.h \
     brosithst3.h \
+    hea.h \
+    heaui7.h \
     mainwindow.h \
     reaksaui1.h \
     reaksaui2.h \
@@ -35,6 +39,8 @@ HEADERS += \
 FORMS += \
     brosithst2.ui \
     brosithst3.ui \
+    hea.ui \
+    heaui7.ui \
     mainwindow.ui \
     reaksaui1.ui \
     reaksaui2.ui \

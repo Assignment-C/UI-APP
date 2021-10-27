@@ -15,6 +15,9 @@ public:
     explicit reaksaui2(QWidget *parent = nullptr);
     ~reaksaui2();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::reaksaui2 *ui;
 };
