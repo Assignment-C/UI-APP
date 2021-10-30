@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::Shaun *ui;
+
 };
 
 #endif // SHAUN_H

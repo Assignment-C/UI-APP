@@ -12,3 +12,14 @@ brosithst3::~brosithst3()
 {
     delete ui;
 }
+
+void brosithst3::on_pushButton_3_clicked()
+{
+//    Shaun shaun;
+//    shaun.setModal(true);
+//    shaun.exec();
+    shaun = new Shaun(this);
+    shaun->show();
+
+
+}
