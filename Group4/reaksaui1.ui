@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>tooltest</class>
- <widget class="QWidget" name="tooltest">
+ <class>ReaksaUI1</class>
+ <widget class="QWidget" name="ReaksaUI1">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,7 +16,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>hometest</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="5">

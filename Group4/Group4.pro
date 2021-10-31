@@ -22,7 +22,6 @@ SOURCES += \
     heaui7.cpp \
     main.cpp \
     mainwindow.cpp \
-    reaksaui1.cpp \
     reaksaui2.cpp \
     shaun.cpp
 
@@ -32,7 +31,6 @@ HEADERS += \
     hea.h \
     heaui7.h \
     mainwindow.h \
-    reaksaui1.h \
     reaksaui2.h \
     shaun.h
 
@@ -42,7 +40,6 @@ FORMS += \
     hea.ui \
     heaui7.ui \
     mainwindow.ui \
-    reaksaui1.ui \
     reaksaui2.ui \
     shaun.ui
 
