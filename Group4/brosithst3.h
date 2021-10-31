@@ -2,7 +2,7 @@
 #define BROSITHST3_H
 
 #include <QDialog>
-#include "shaun.h"
+
 namespace Ui {
 class brosithst3;
 }
@@ -16,12 +16,12 @@ public:
     ~brosithst3();
 
 public slots:
-    void on_pushButton_3_clicked();
+    void AddtoStudent();
 public slots:
     void AddtoTecher();
 private:
     Ui::brosithst3 *ui;
-    Shaun *shaun;
+
 };
 
 #endif // BROSITHST3_H
