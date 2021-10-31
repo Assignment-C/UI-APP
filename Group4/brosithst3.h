@@ -15,9 +15,10 @@ public:
     explicit brosithst3(QWidget *parent = nullptr);
     ~brosithst3();
 
-private slots:
+public slots:
     void on_pushButton_3_clicked();
-
+public slots:
+    void AddtoTecher();
 private:
     Ui::brosithst3 *ui;
     Shaun *shaun;

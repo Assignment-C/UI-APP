@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>839</width>
-    <height>563</height>
+    <width>1047</width>
+    <height>520</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -84,5 +84,25 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>brosithst3</receiver>
+   <slot>AddtoTecher()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>570</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>669</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>AddtoTecher()</slot>
+ </slots>
 </ui>

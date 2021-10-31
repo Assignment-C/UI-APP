@@ -15,6 +15,8 @@ public:
     ~MainWindow();
 public slots:
     void OpenChicetool();
+public slots:
+    void CreatAcc();
 private:
     Ui::MainWindow *ui;
 };

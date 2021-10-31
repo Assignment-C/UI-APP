@@ -1,5 +1,6 @@
 #include "brosithst3.h"
 #include "ui_brosithst3.h"
+#include "reaksaui2.h"
 
 brosithst3::brosithst3(QWidget *parent) :
     QDialog(parent),
@@ -21,5 +22,9 @@ void brosithst3::on_pushButton_3_clicked()
     shaun = new Shaun(this);
     shaun->show();
 
-
 }
+void brosithst3::AddtoTecher(){
+    reaksaui2 Techer;
+    Techer.show();
+}
+

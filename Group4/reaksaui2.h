@@ -14,10 +14,9 @@ class reaksaui2 : public QWidget
 public:
     explicit reaksaui2(QWidget *parent = nullptr);
     ~reaksaui2();
-public slots:
-    void ToolTecher();
-private slots:
-    void on_pushButton_clicked();
+
+/*private slots:
+    void on_pushButton_clicked();*/
 
 private:
     Ui::reaksaui2 *ui;

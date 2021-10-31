@@ -19,8 +19,8 @@ brosithst2::~brosithst2()
     delete ui;
 }
 
-void brosithst2::on_pushButton_clicked()
+/*void brosithst2::on_pushButton_clicked()
 {
 
-}
+}*/
 

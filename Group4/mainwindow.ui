@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>I TEST</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>D:/Copy/I Test (3).png</normaloff>D:/Copy/I Test (3).png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -179,8 +183,25 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>CreatAcc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>435</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>506</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>OpenChicetool()</slot>
+  <slot>CreatAcc()</slot>
  </slots>
 </ui>
