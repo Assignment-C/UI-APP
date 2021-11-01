@@ -14,10 +14,12 @@ MainWindow::~MainWindow()
     delete ui;
 }
 void MainWindow::OpenChicetool(){
-    brosithst3 BechiceHome;
-    BechiceHome.exec();
+    brosithst3* BechiceHome = new brosithst3(nullptr);
+    BechiceHome->show();
+    this->hide();
 }
 void MainWindow::CreatAcc(){
-    brosithst2 Create;
-    Create.exec();
+    brosithst2* Create = new brosithst2(nullptr);
+    Create->show();
+    this->hide();
 }

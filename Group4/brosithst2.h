@@ -17,6 +17,8 @@ public:
 
 /*private slots:
     void on_pushButton_clicked();*/
+public slots:
+    void CreateAcchome();
 
 private:
     Ui::brosithst2 *ui;

@@ -69,5 +69,25 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>HeaUi7</receiver>
+   <slot>JoinClass()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>333</x>
+     <y>135</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>JoinClass()</slot>
+ </slots>
 </ui>

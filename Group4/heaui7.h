@@ -14,6 +14,8 @@ class HeaUi7 : public QDialog
 public:
     explicit HeaUi7(QWidget *parent = nullptr);
     ~HeaUi7();
+public slots:
+    void JoinClass();
 
 private:
     Ui::HeaUi7 *ui;

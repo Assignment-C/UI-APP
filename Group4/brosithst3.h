@@ -19,6 +19,8 @@ public slots:
     void on_pushButton_3_clicked();
 public slots:
     void AddtoTecher();
+public slots:
+    void StudentClass();
 private:
     Ui::brosithst3 *ui;
     Shaun *shaun;

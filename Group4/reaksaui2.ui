@@ -116,5 +116,25 @@ p, li { white-space: pre-wrap; }
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>reaksaui2</receiver>
+   <slot>OpentHomeTecher()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>436</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>524</x>
+     <y>456</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>OpentHomeTecher()</slot>
+ </slots>
 </ui>

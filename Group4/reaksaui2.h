@@ -15,6 +15,9 @@ public:
     explicit reaksaui2(QWidget *parent = nullptr);
     ~reaksaui2();
 
+public slots:
+    void OpentHomeTecher();
+
 /*private slots:
     void on_pushButton_clicked();*/
 
