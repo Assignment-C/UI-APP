@@ -2,6 +2,10 @@
 #include "ui_brosithst3.h"
 #include "reaksaui2.h"
 #include "shaun.h"
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7038a6aa34808dc574f2ac353957d492a6eea15
 brosithst3::brosithst3(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::brosithst3)
@@ -14,13 +18,9 @@ brosithst3::~brosithst3()
     delete ui;
 }
 
-void brosithst3::on_pushButton_3_clicked()
-{
-//    Shaun shaun;
-//    shaun.setModal(true);
-//    shaun.exec();
-    shaun = new Shaun(this);
-    shaun->show();
+void brosithst3::AddtoStudent(){
+    Shaun Student;
+    Student.show();
 
 }
 void brosithst3::AddtoTecher(){

@@ -1,5 +1,6 @@
 #include "shaun.h"
 #include "ui_shaun.h"
+#include "QProcess"
 
 Shaun::Shaun(QWidget *parent) :
     QWidget(parent),

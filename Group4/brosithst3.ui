@@ -105,6 +105,7 @@
    <sender>pushButton_3</sender>
    <signal>clicked()</signal>
    <receiver>brosithst3</receiver>
+<<<<<<< HEAD
    <slot>StudentClass()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -114,12 +115,27 @@
     <hint type="destinationlabel">
      <x>273</x>
      <y>282</y>
+=======
+   <slot>AddtoStudent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>292</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>290</x>
+     <y>449</y>
+>>>>>>> a7038a6aa34808dc574f2ac353957d492a6eea15
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
   <slot>AddtoTecher()</slot>
+<<<<<<< HEAD
   <slot>StudentClass()</slot>
+=======
+  <slot>AddtoStudent()</slot>
+>>>>>>> a7038a6aa34808dc574f2ac353957d492a6eea15
  </slots>
 </ui>
