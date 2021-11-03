@@ -22,10 +22,10 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>120</y>
-     <width>481</width>
-     <height>251</height>
+     <x>180</x>
+     <y>90</y>
+     <width>441</width>
+     <height>381</height>
     </rect>
    </property>
    <property name="whatsThis">
@@ -231,8 +231,8 @@ background-color: rgb(85, 85, 255);
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>70</y>
+     <x>340</x>
+     <y>40</y>
      <width>171</width>
      <height>41</height>
     </rect>
@@ -253,5 +253,25 @@ background-color: rgb(85, 85, 255);
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>brosithst2</receiver>
+   <slot>CreateAcchome()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>424</x>
+     <y>351</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>CreateAcchome()</slot>
+ </slots>
 </ui>

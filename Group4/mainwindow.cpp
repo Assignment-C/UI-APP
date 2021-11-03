@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "brosithst3.h"
 #include "brosithst2.h"
+#include "reaksaui3.h"
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -14,7 +14,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 void MainWindow::OpenChicetool(){
-    brosithst3* BechiceHome = new brosithst3(nullptr);
+    Reaksaui3* BechiceHome = new Reaksaui3(nullptr);
     BechiceHome->show();
     this->hide();
 }

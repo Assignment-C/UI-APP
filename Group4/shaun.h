@@ -14,6 +14,8 @@ class Shaun : public QWidget
 public:
     explicit Shaun(QWidget *parent = nullptr);
     ~Shaun();
+public slots:
+    void GradeClass();
 
 private:
     Ui::Shaun *ui;

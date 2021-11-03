@@ -168,22 +168,6 @@
  <resources/>
  <connections>
   <connection>
-   <sender>longinbtn</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>OpenChicetool()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>475</x>
-     <y>332</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>427</x>
-     <y>460</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_2</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
@@ -199,9 +183,25 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>longinbtn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>OpenChicetool()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>489</x>
+     <y>339</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>466</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
-  <slot>OpenChicetool()</slot>
   <slot>CreatAcc()</slot>
+  <slot>OpenChicetool()</slot>
  </slots>
 </ui>

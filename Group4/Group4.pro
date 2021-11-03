@@ -17,13 +17,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     brosithst2.cpp \
-    brosithst3.cpp \
     classtecher.cpp \
     hea.cpp \
     heaui7.cpp \
     main.cpp \
     mainwindow.cpp \
     reaksaui2.cpp \
+    reaksaui3.cpp \
     shaun.cpp \
     shaunui1.cpp \
     shaunui2.cpp \
@@ -31,12 +31,12 @@ SOURCES += \
 
 HEADERS += \
     brosithst2.h \
-    brosithst3.h \
     classtecher.h \
     hea.h \
     heaui7.h \
     mainwindow.h \
     reaksaui2.h \
+    reaksaui3.h \
     shaun.h \
     shaunui1.h \
     shaunui2.h \
@@ -44,12 +44,12 @@ HEADERS += \
 
 FORMS += \
     brosithst2.ui \
-    brosithst3.ui \
     classtecher.ui \
     hea.ui \
     heaui7.ui \
     mainwindow.ui \
     reaksaui2.ui \
+    reaksaui3.ui \
     shaun.ui \
     shaunui1.ui \
     shaunui2.ui \

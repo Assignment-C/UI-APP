@@ -122,5 +122,25 @@ color: rgb(0, 0, 0);</string>
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Shaun</receiver>
+   <slot>GradeClass()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>536</x>
+     <y>192</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>GradeClass()</slot>
+ </slots>
 </ui>

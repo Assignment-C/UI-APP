@@ -1,6 +1,6 @@
 #include "brosithst2.h"
 #include "ui_brosithst2.h"
-#include "hea.h"
+#include "reaksaui3.h"
 brosithst2::brosithst2(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::brosithst2)
@@ -19,8 +19,9 @@ brosithst2::~brosithst2()
     delete ui;
 }
 void brosithst2::CreateAcchome(){
-       hea GotoCreate;
-       GotoCreate.show();
+      Reaksaui3* Gohomepage = new Reaksaui3(nullptr);
+      Gohomepage->show();
+      this->hide();
 }
 /*void brosithst2::on_pushButton_clicked()
 {
