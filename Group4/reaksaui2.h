@@ -18,8 +18,7 @@ public:
 public slots:
     void OpentHomeTecher();
 
-/*private slots:
-    void on_pushButton_clicked();*/
+
 
 private:
     Ui::reaksaui2 *ui;

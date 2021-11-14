@@ -15,8 +15,7 @@ public:
     explicit HeaUi7(QWidget *parent = nullptr);
     ~HeaUi7();
 public slots:
-    void JoinClass();
-
+    void ListClassTeacher();
 private:
     Ui::HeaUi7 *ui;
 };

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>HeaUi7</class>
- <widget class="QDialog" name="HeaUi7">
+ <class>ListClass</class>
+ <widget class="QWidget" name="ListClass">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>905</width>
-    <height>426</height>
+    <width>835</width>
+    <height>631</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Form</string>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>20</x>
      <y>20</y>
-     <width>151</width>
+     <width>181</width>
      <height>61</height>
     </rect>
    </property>
@@ -28,15 +28,15 @@
     </font>
    </property>
    <property name="text">
-    <string>Create Test</string>
+    <string>Grade 10 &quot;B01&quot;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>20</y>
-     <width>151</width>
+     <x>20</x>
+     <y>120</y>
+     <width>181</width>
      <height>61</height>
     </rect>
    </property>
@@ -46,15 +46,15 @@
     </font>
    </property>
    <property name="text">
-    <string>Class</string>
+    <string>Grade 10 &quot;B012&quot;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>290</x>
      <y>20</y>
-     <width>151</width>
+     <width>191</width>
      <height>61</height>
     </rect>
    </property>
@@ -64,31 +64,28 @@
     </font>
    </property>
    <property name="text">
-    <string>Tutorail</string>
+    <string>Grade 11 A&quot;001&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>120</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Grade 11 B&quot;012&quot;</string>
    </property>
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>HeaUi7</receiver>
-   <slot>ListClassTeacher()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>308</x>
-     <y>58</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>224</x>
-     <y>116</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
- <slots>
-  <slot>JoinClass()</slot>
-  <slot>ListClassTeacher()</slot>
- </slots>
+ <connections/>
 </ui>

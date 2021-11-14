@@ -1,6 +1,6 @@
 #include "hea.h"
 #include "ui_hea.h"
-
+#include "homepage.h"
 hea::hea(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::hea)
@@ -25,4 +25,9 @@ hea::hea(QWidget *parent) :
 hea::~hea()
 {
     delete ui;
+}
+void hea::AccountUser(){
+    Homepage* Profile = new Homepage(nullptr);
+    Profile->show();
+    this->hide();
 }

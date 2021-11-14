@@ -1,94 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>HeaUi7</class>
- <widget class="QDialog" name="HeaUi7">
+ <class>ClassStudent</class>
+ <widget class="QWidget" name="ClassStudent">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>905</width>
-    <height>426</height>
+    <width>1010</width>
+    <height>590</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Form</string>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>20</y>
-     <width>151</width>
-     <height>61</height>
+     <y>10</y>
+     <width>91</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>4</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>Create Test</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../home.png</normaloff>../../home.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>190</x>
      <y>20</y>
-     <width>151</width>
+     <width>181</width>
      <height>61</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>15</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>Class</string>
+    <string>Statistic</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>432</x>
      <y>20</y>
-     <width>151</width>
+     <width>181</width>
      <height>61</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>15</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>Tutorail</string>
+    <string>JoinTest</string>
    </property>
   </widget>
  </widget>
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton_2</sender>
+   <sender>pushButton_3</sender>
    <signal>clicked()</signal>
-   <receiver>HeaUi7</receiver>
-   <slot>ListClassTeacher()</slot>
+   <receiver>ClassStudent</receiver>
+   <slot>StudentClass()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>308</x>
-     <y>58</y>
+     <x>539</x>
+     <y>60</y>
     </hint>
     <hint type="destinationlabel">
-     <x>224</x>
-     <y>116</y>
+     <x>420</x>
+     <y>100</y>
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
-  <slot>JoinClass()</slot>
-  <slot>ListClassTeacher()</slot>
+  <slot>StudentClass()</slot>
  </slots>
 </ui>

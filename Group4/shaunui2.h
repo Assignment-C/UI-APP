@@ -15,6 +15,7 @@ public:
     explicit ShaunUI2(QWidget *parent = nullptr);
     ~ShaunUI2();
 
+
 private:
     Ui::ShaunUI2 *ui;
 };

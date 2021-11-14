@@ -14,6 +14,8 @@ class ClassTecher : public QWidget
 public:
     explicit ClassTecher(QWidget *parent = nullptr);
     ~ClassTecher();
+public slots:
+    void TeacherStep2();
 
 private:
     Ui::ClassTecher *ui;

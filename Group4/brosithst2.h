@@ -15,8 +15,7 @@ public:
     explicit brosithst2(QWidget *parent = nullptr);
     ~brosithst2();
 
-/*private slots:
-    void on_pushButton_clicked();*/
+
 public slots:
     void CreateAcchome();
 

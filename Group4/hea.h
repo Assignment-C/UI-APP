@@ -14,6 +14,8 @@ class hea : public QWidget
 public:
     explicit hea(QWidget *parent = nullptr);
     ~hea();
+public slots:
+    void AccountUser();
 
 private:
     Ui::hea *ui;
