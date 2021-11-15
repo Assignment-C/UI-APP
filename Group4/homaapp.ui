@@ -24,7 +24,7 @@
      <x>0</x>
      <y>0</y>
      <width>1003</width>
-     <height>41</height>
+     <height>34</height>
     </rect>
    </property>
    <property name="font">
@@ -39,22 +39,76 @@
     <widget class="QMenu" name="menuEasy">
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="title">
       <string>Easy</string>
      </property>
      <addaction name="actionMath"/>
+     <addaction name="actionPhysic"/>
+     <addaction name="actionKhmer"/>
+     <addaction name="actionEnglish"/>
+     <addaction name="actionChemistry"/>
+     <addaction name="actionBiology"/>
+    </widget>
+    <widget class="QMenu" name="menuNormal">
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Normal</string>
+     </property>
+     <addaction name="actionMath_2"/>
+     <addaction name="actionPhysic_2"/>
+     <addaction name="actionKhmer_2"/>
+     <addaction name="actionEnglish_2"/>
+     <addaction name="actionChemistry_2"/>
+     <addaction name="actionBiology_2"/>
+    </widget>
+    <widget class="QMenu" name="menuHard">
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Hard</string>
+     </property>
+     <addaction name="actionMath_3"/>
+     <addaction name="actionPhysic_3"/>
+     <addaction name="actionEnglish_3"/>
+     <addaction name="actionEnglish_4"/>
+     <addaction name="actionChemistry_3"/>
+     <addaction name="actionBiology_3"/>
     </widget>
     <addaction name="menuEasy"/>
-    <addaction name="actionHard"/>
-    <addaction name="actionNormarl"/>
-    <addaction name="separator"/>
+    <addaction name="menuNormal"/>
+    <addaction name="menuHard"/>
    </widget>
    <widget class="QMenu" name="menuAdvance_Test">
     <property name="title">
      <string>Advance Test</string>
+    </property>
+    <addaction name="actionIELT"/>
+    <addaction name="actionTOEFL"/>
+   </widget>
+   <widget class="QMenu" name="menuAdvance_Test_2">
+    <property name="title">
+     <string>Advance Test</string>
+    </property>
+    <addaction name="actionITC"/>
+    <addaction name="actionIFL"/>
+    <addaction name="actionKIT"/>
+    <addaction name="actionNEPTIC"/>
+   </widget>
+   <widget class="QMenu" name="menuEvent">
+    <property name="title">
+     <string>Event</string>
     </property>
    </widget>
    <widget class="QMenu" name="menuNO">
@@ -64,32 +118,132 @@
    </widget>
    <addaction name="menuApp"/>
    <addaction name="menuAdvance_Test"/>
+<<<<<<< HEAD
    <addaction name="menuNO"/>
+=======
+   <addaction name="menuAdvance_Test_2"/>
+   <addaction name="menuEvent"/>
+>>>>>>> 6f80a6256be9e3d1ed334753144f15f65ef98a0a
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionHard">
-   <property name="text">
-    <string>Hard</string>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-    </font>
-   </property>
-  </action>
-  <action name="actionNormarl">
-   <property name="text">
-    <string>Normarl</string>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-    </font>
-   </property>
-  </action>
   <action name="actionMath">
    <property name="text">
     <string>Math</string>
+   </property>
+  </action>
+  <action name="actionPhysic">
+   <property name="text">
+    <string>Physic</string>
+   </property>
+  </action>
+  <action name="actionKhmer">
+   <property name="text">
+    <string>Khmer</string>
+   </property>
+  </action>
+  <action name="actionEnglish">
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="actionChemistry">
+   <property name="text">
+    <string>Chemistry </string>
+   </property>
+  </action>
+  <action name="actionBiology">
+   <property name="text">
+    <string>Biology</string>
+   </property>
+  </action>
+  <action name="actionIELT">
+   <property name="text">
+    <string>IELT</string>
+   </property>
+  </action>
+  <action name="actionTOEFL">
+   <property name="text">
+    <string>TOEFL</string>
+   </property>
+  </action>
+  <action name="actionITC">
+   <property name="text">
+    <string>ITC</string>
+   </property>
+  </action>
+  <action name="actionIFL">
+   <property name="text">
+    <string>IFL</string>
+   </property>
+  </action>
+  <action name="actionKIT">
+   <property name="text">
+    <string>KIT</string>
+   </property>
+  </action>
+  <action name="actionNEPTIC">
+   <property name="text">
+    <string>NEPTIC</string>
+   </property>
+  </action>
+  <action name="actionMath_2">
+   <property name="text">
+    <string>Math</string>
+   </property>
+  </action>
+  <action name="actionPhysic_2">
+   <property name="text">
+    <string>Physic</string>
+   </property>
+  </action>
+  <action name="actionKhmer_2">
+   <property name="text">
+    <string>Khmer</string>
+   </property>
+  </action>
+  <action name="actionEnglish_2">
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="actionChemistry_2">
+   <property name="text">
+    <string>Chemistry</string>
+   </property>
+  </action>
+  <action name="actionBiology_2">
+   <property name="text">
+    <string>Biology</string>
+   </property>
+  </action>
+  <action name="actionMath_3">
+   <property name="text">
+    <string>Math</string>
+   </property>
+  </action>
+  <action name="actionPhysic_3">
+   <property name="text">
+    <string>Physic</string>
+   </property>
+  </action>
+  <action name="actionEnglish_3">
+   <property name="text">
+    <string>Khmer</string>
+   </property>
+  </action>
+  <action name="actionEnglish_4">
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="actionChemistry_3">
+   <property name="text">
+    <string>Chemistry</string>
+   </property>
+  </action>
+  <action name="actionBiology_3">
+   <property name="text">
+    <string>Biology</string>
    </property>
   </action>
  </widget>

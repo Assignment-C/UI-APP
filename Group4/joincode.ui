@@ -33,7 +33,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Comform Class Code</string>
+    <string>Confirm Class Code</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
