@@ -12,3 +12,8 @@ HomaApp::~HomaApp()
 {
     delete ui;
 }
+
+void HomaApp::on_pushButton_clicked()
+{
+
+}

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>D:/IconApp/Back.png</file>
+        <file>D:/IconApp/home.png</file>
+        <file>D:/IconApp/i2.jpg</file>
+        <file>D:/IconApp/teacher-240-1128987.png</file>
+    </qresource>
+</RCC>

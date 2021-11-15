@@ -15,6 +15,9 @@ public:
     explicit HomaApp(QWidget *parent = nullptr);
     ~HomaApp();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::HomaApp *ui;
 };

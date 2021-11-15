@@ -57,8 +57,14 @@
      <string>Advance Test</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuNO">
+    <property name="title">
+     <string>NO</string>
+    </property>
+   </widget>
    <addaction name="menuApp"/>
    <addaction name="menuAdvance_Test"/>
+   <addaction name="menuNO"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionHard">
