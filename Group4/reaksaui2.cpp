@@ -2,6 +2,7 @@
 #include "ui_reaksaui2.h"
 #include "QProcess"
 #include "joincode.h"
+#include "QMessageBox"
 reaksaui2::reaksaui2(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::reaksaui2)
@@ -22,3 +23,8 @@ void reaksaui2::OpentHomeTecher(){
 
 
 
+
+void reaksaui2::on_pushButton_clicked()
+{
+   QMessageBox::information(this,tr("Your Code"), tr("ZspP12wet")) ;
+}

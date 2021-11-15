@@ -16,6 +16,8 @@ public:
     ~ClassStudent();
 public slots:
     void StudentClass();
+public slots:
+    void BackClasHome();
 private:
     Ui::ClassStudent *ui;
 };

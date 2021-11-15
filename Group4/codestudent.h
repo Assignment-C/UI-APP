@@ -15,6 +15,7 @@ public:
     explicit CodeStudent(QWidget *parent = nullptr);
     ~CodeStudent();
 
+
 private:
     Ui::CodeStudent *ui;
 };

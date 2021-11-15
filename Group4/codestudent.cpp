@@ -12,3 +12,4 @@ CodeStudent::~CodeStudent()
 {
     delete ui;
 }
+

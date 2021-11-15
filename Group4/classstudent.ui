@@ -96,8 +96,25 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ClassStudent</receiver>
+   <slot>BackClasHome()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>108</x>
+     <y>112</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>StudentClass()</slot>
+  <slot>BackClasHome()</slot>
  </slots>
 </ui>
