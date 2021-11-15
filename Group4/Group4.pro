@@ -21,6 +21,7 @@ SOURCES += \
     codestudent.cpp \
     hea.cpp \
     heaui7.cpp \
+    homaapp.cpp \
     homepage.cpp \
     joincode.cpp \
     listclass.cpp \
@@ -39,6 +40,7 @@ HEADERS += \
     codestudent.h \
     hea.h \
     heaui7.h \
+    homaapp.h \
     homepage.h \
     joincode.h \
     listclass.h \
@@ -56,6 +58,7 @@ FORMS += \
     codestudent.ui \
     hea.ui \
     heaui7.ui \
+    homaapp.ui \
     homepage.ui \
     joincode.ui \
     listclass.ui \

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomaApp</class>
+ <widget class="QMainWindow" name="HomaApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1003</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../teacher-240-1128987.png</normaloff>../../teacher-240-1128987.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1003</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuApp">
+    <property name="title">
+     <string>Simple Test</string>
+    </property>
+    <widget class="QMenu" name="menuEasy">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Easy</string>
+     </property>
+     <addaction name="actionMath"/>
+    </widget>
+    <addaction name="menuEasy"/>
+    <addaction name="actionHard"/>
+    <addaction name="actionNormarl"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuAdvance_Test">
+    <property name="title">
+     <string>Advance Test</string>
+    </property>
+   </widget>
+   <addaction name="menuApp"/>
+   <addaction name="menuAdvance_Test"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHard">
+   <property name="text">
+    <string>Hard</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionNormarl">
+   <property name="text">
+    <string>Normarl</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionMath">
+   <property name="text">
+    <string>Math</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

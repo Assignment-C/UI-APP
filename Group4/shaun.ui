@@ -139,8 +139,25 @@ color: rgb(0, 0, 0);</string>
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Shaun</receiver>
+   <slot>HomeClas()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>564</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>GradeClass()</slot>
+  <slot>HomeClas()</slot>
  </slots>
 </ui>

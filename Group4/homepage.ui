@@ -52,7 +52,7 @@
     </font>
    </property>
    <property name="title">
-    <string>GroupBox</string>
+    <string>Profile</string>
    </property>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
@@ -188,6 +188,29 @@
     </property>
    </widget>
   </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Back.png</normaloff>../../Back.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections>
@@ -208,22 +231,6 @@
    </hints>
   </connection>
   <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>Homepage</receiver>
-   <slot>BackHomepage()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>455</x>
-     <y>83</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>594</x>
-     <y>84</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_6</sender>
    <signal>clicked()</signal>
    <receiver>Homepage</receiver>
@@ -236,6 +243,22 @@
     <hint type="destinationlabel">
      <x>593</x>
      <y>663</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Homepage</receiver>
+   <slot>BackHomepage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>34</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>87</x>
+     <y>76</y>
     </hint>
    </hints>
   </connection>
