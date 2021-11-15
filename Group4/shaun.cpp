@@ -2,7 +2,7 @@
 #include "ui_shaun.h"
 #include "QProcess"
 #include "hea.h"
-#include "homaapp.h"
+
 Shaun::Shaun(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Shaun)
@@ -19,11 +19,4 @@ void Shaun::GradeClass(){
     GradeStudent->show();
     this->hide();
 }
-void Shaun::HomeClas(){
-    HomaApp* MainHome = new HomaApp(nullptr);
-    MainHome->show();
-    this->hide();
 
-
-
-}

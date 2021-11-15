@@ -16,8 +16,7 @@ public:
     ~Shaun();
 public slots:
     void GradeClass();
-public slots:
-    void HomeClas();
+
 
 private:
     Ui::Shaun *ui;

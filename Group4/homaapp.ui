@@ -113,13 +113,13 @@
    </widget>
    <widget class="QMenu" name="menuNO">
     <property name="title">
-     <string>NO</string>
+     <string><NO/>
     </property>
    </widget>
    <addaction name="menuApp"/>
    <addaction name="menuAdvance_Test"/>
-<<<<<<< HEAD
-   <addaction name="menuNO"/>
+<<<<<<<
+
 =======
    <addaction name="menuAdvance_Test_2"/>
    <addaction name="menuEvent"/>
