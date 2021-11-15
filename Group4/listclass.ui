@@ -85,7 +85,45 @@
     <string>Grade 11 B&quot;012&quot;</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>10</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add Class</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>ListClass</receiver>
+   <slot>AddClassTeacher()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>769</x>
+     <y>44</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>709</x>
+     <y>78</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>AddClassTeacher()</slot>
+ </slots>
 </ui>

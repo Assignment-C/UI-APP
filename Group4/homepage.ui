@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>844</width>
-    <height>687</height>
+    <width>926</width>
+    <height>713</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>30</y>
+     <x>410</x>
+     <y>10</y>
      <width>101</width>
      <height>111</height>
     </rect>
@@ -40,9 +40,9 @@
    <property name="geometry">
     <rect>
      <x>290</x>
-     <y>140</y>
-     <width>331</width>
-     <height>501</height>
+     <y>120</y>
+     <width>361</width>
+     <height>531</height>
     </rect>
    </property>
    <property name="font">
@@ -57,8 +57,8 @@
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>430</y>
+      <x>110</x>
+      <y>460</y>
       <width>151</width>
       <height>51</height>
      </rect>
@@ -76,8 +76,8 @@
    <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>160</y>
+      <x>30</x>
+      <y>180</y>
       <width>301</width>
       <height>51</height>
      </rect>
@@ -95,8 +95,8 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>11</x>
-      <y>299</y>
+      <x>30</x>
+      <y>320</y>
       <width>301</width>
       <height>51</height>
      </rect>
@@ -114,8 +114,8 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>11</x>
-      <y>26</y>
+      <x>30</x>
+      <y>40</y>
       <width>301</width>
       <height>51</height>
      </rect>
@@ -133,8 +133,8 @@
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>230</y>
+      <x>30</x>
+      <y>250</y>
       <width>301</width>
       <height>51</height>
      </rect>
@@ -152,8 +152,8 @@
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>11</x>
-      <y>91</y>
+      <x>30</x>
+      <y>110</y>
       <width>301</width>
       <height>51</height>
      </rect>
@@ -171,8 +171,8 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>370</y>
+      <x>30</x>
+      <y>390</y>
       <width>301</width>
       <height>51</height>
      </rect>
@@ -207,8 +207,42 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Homepage</receiver>
+   <slot>BackHomepage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>455</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>594</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Homepage</receiver>
+   <slot>Longout()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>504</x>
+     <y>605</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>593</x>
+     <y>663</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>JoinClassCodeStudent1()</slot>
+  <slot>BackHomepage()</slot>
+  <slot>Longout()</slot>
  </slots>
 </ui>

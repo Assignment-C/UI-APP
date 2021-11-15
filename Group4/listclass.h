@@ -14,6 +14,8 @@ class ListClass : public QWidget
 public:
     explicit ListClass(QWidget *parent = nullptr);
     ~ListClass();
+public slots:
+    void AddClassTeacher();
 
 private:
     Ui::ListClass *ui;

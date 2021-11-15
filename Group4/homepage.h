@@ -16,6 +16,10 @@ public:
     ~Homepage();
 public slots:
     void JoinClassCodeStudent1();
+public slots:
+    void BackHomepage();
+public slots:
+    void Longout();
 private:
     Ui::Homepage *ui;
 };
