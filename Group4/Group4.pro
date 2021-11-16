@@ -19,6 +19,7 @@ SOURCES += \
     brosithst2.cpp \
     classstudent.cpp \
     codestudent.cpp \
+    dropmenu.cpp \
     hea.cpp \
     heaui7.cpp \
     homepage.cpp \
@@ -37,6 +38,7 @@ HEADERS += \
     brosithst2.h \
     classstudent.h \
     codestudent.h \
+    dropmenu.h \
     hea.h \
     heaui7.h \
     homepage.h \
@@ -54,6 +56,7 @@ FORMS += \
     brosithst2.ui \
     classstudent.ui \
     codestudent.ui \
+    dropmenu.ui \
     hea.ui \
     heaui7.ui \
     homepage.ui \
@@ -73,5 +76,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    Icon.qrc \
     src.qrc
