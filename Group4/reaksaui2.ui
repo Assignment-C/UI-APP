@@ -134,7 +134,7 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>330</x>
      <y>310</y>
      <width>201</width>
      <height>41</height>
@@ -170,22 +170,22 @@
    </item>
    <item>
     <property name="text">
-     <string>Bigger 100</string>
+     <string>More than 100</string>
     </property>
    </item>
    <item>
     <property name="text">
-     <string>Bigger 120</string>
+     <string>More than 120</string>
     </property>
    </item>
    <item>
     <property name="text">
-     <string>Bigger 200</string>
+     <string>More than 200</string>
     </property>
    </item>
    <item>
     <property name="text">
-     <string>Bigger 500</string>
+     <string>More than 500</string>
     </property>
    </item>
    <item>

@@ -85,7 +85,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>LongIN</string>
+     <string>Log In</string>
     </property>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
@@ -182,7 +182,7 @@
      <x>0</x>
      <y>0</y>
      <width>946</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
