@@ -1,6 +1,7 @@
 #include "hea.h"
 #include "ui_hea.h"
 #include "homepage.h"
+#include "testform1.h"
 hea::hea(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::hea)
@@ -29,5 +30,10 @@ hea::~hea()
 void hea::AccountUser(){
     Homepage* Profile = new Homepage(nullptr);
     Profile->show();
+    this->hide();
+}
+void hea::DoTest(){
+    TestForm1* GotoTestForm1 = new TestForm1(nullptr);
+    GotoTestForm1->show();
     this->hide();
 }

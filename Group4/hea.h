@@ -16,6 +16,8 @@ public:
     ~hea();
 public slots:
     void AccountUser();
+public slots:
+    void DoTest();
 
 private:
     Ui::hea *ui;

@@ -30,11 +30,10 @@ SOURCES += \
     reaksaui2.cpp \
     reaksaui3.cpp \
     shaun.cpp \
-    shaunui1.cpp \
-    shaunui2.cpp \
     shaunui3.cpp \
     testform1.cpp \
-    testform2.cpp
+    testform2.cpp \
+    testform3.cpp
 
 HEADERS += \
     brosithst2.h \
@@ -50,11 +49,10 @@ HEADERS += \
     reaksaui2.h \
     reaksaui3.h \
     shaun.h \
-    shaunui1.h \
-    shaunui2.h \
     shaunui3.h \
     testform1.h \
-    testform2.h
+    testform2.h \
+    testform3.h
 
 FORMS += \
     brosithst2.ui \
@@ -70,11 +68,10 @@ FORMS += \
     reaksaui2.ui \
     reaksaui3.ui \
     shaun.ui \
-    shaunui1.ui \
-    shaunui2.ui \
     shaunui3.ui \
     testform1.ui \
-    testform2.ui
+    testform2.ui \
+    testform3.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

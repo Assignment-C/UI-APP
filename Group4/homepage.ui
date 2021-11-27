@@ -17,17 +17,17 @@
    <property name="geometry">
     <rect>
      <x>410</x>
-     <y>10</y>
+     <y>30</y>
      <width>101</width>
-     <height>111</height>
+     <height>81</height>
     </rect>
    </property>
    <property name="text">
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../teacher-240-1128987.png</normaloff>../../teacher-240-1128987.png</iconset>
+    <iconset resource="src1.qrc">
+     <normaloff>:/image1/student.png</normaloff>:/image1/student.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -201,8 +201,8 @@
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../Back.png</normaloff>../../Back.png</iconset>
+    <iconset resource="src1.qrc">
+     <normaloff>:/image1/back.png</normaloff>:/image1/back.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -212,7 +212,9 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="src1.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>pushButton_8</sender>

@@ -16,6 +16,8 @@ public:
     ~TestForm2();
 public slots:
     void OpentTi1();
+public slots:
+    void OpentTi2();
 private:
     Ui::TestForm2 *ui;
 };

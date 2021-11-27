@@ -31,8 +31,8 @@
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../home.png</normaloff>../../home.png</iconset>
+    <iconset resource="src1.qrc">
+     <normaloff>:/image1/home.png</normaloff>:/image1/home.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -78,7 +78,9 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="src1.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>pushButton_3</sender>

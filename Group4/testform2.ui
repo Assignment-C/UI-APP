@@ -17,74 +17,9 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>50</y>
+     <y>20</y>
      <width>721</width>
-     <height>80</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Q1.</string>
-   </property>
-  </widget>
-  <widget class="QGroupBox" name="groupBox_2">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>160</y>
-     <width>721</width>
-     <height>80</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Q2. </string>
-   </property>
-  </widget>
-  <widget class="QGroupBox" name="groupBox_3">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>270</y>
-     <width>721</width>
-     <height>80</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Q3. </string>
-   </property>
-  </widget>
-  <widget class="QGroupBox" name="groupBox_4">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>380</y>
-     <width>721</width>
-     <height>80</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Q4. </string>
-   </property>
-  </widget>
-  <widget class="QGroupBox" name="groupBox_5">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>590</y>
-     <width>721</width>
-     <height>80</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Q6. </string>
-   </property>
-  </widget>
-  <widget class="QGroupBox" name="groupBox_6">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>480</y>
-     <width>721</width>
-     <height>80</height>
+     <height>101</height>
     </rect>
    </property>
    <property name="font">
@@ -93,8 +28,210 @@
     </font>
    </property>
    <property name="title">
-    <string>Q5. </string>
+    <string>Q1.That book you recommended sounds interesting.</string>
    </property>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>linking verb</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>non-linking verb</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>721</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Q2. We looked at all of the art in the museum.</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>regular verb</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>irregular verb</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>721</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Q3. I have had this phone for two years.</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>main verb</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>helping verb</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>400</y>
+     <width>721</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Q4. The grocery clerk will carry your bags out for you.</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton_7">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>helping verb</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_8">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>main verb</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_6">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>530</y>
+     <width>721</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Q5. Jerry studies for three hours every day.</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton_9">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>helping verb</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_10">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>main verb</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
@@ -151,8 +288,25 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>TestForm2</receiver>
+   <slot>OpentTi2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>720</x>
+     <y>704</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>789</x>
+     <y>704</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>OpentTi1()</slot>
+  <slot>OpentTi2()</slot>
  </slots>
 </ui>
