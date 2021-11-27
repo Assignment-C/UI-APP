@@ -17,7 +17,10 @@ public:
 public slots:
     void GradeClass();
 
-
+public slots:
+    void DropMenu();
+public slots:
+    void UsingForm();
 private:
     Ui::Shaun *ui;
 

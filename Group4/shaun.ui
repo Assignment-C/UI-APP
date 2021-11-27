@@ -143,15 +143,31 @@ color: rgb(0, 0, 0);</string>
    <sender>pushButton_2</sender>
    <signal>clicked()</signal>
    <receiver>Shaun</receiver>
-   <slot>HomeClas()</slot>
+   <slot>DropMenu()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>428</x>
-     <y>254</y>
+     <x>378</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Shaun</receiver>
+   <slot>UsingForm()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>367</y>
     </hint>
     <hint type="destinationlabel">
      <x>564</x>
-     <y>258</y>
+     <y>352</y>
     </hint>
    </hints>
   </connection>
@@ -159,5 +175,7 @@ color: rgb(0, 0, 0);</string>
  <slots>
   <slot>GradeClass()</slot>
   <slot>HomeClas()</slot>
+  <slot>DropMenu()</slot>
+  <slot>UsingForm()</slot>
  </slots>
 </ui>

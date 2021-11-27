@@ -25,7 +25,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>43</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSimple_Test">
@@ -219,6 +219,11 @@
   <action name="actionIELT">
    <property name="text">
     <string>IELT</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
    </property>
   </action>
   <action name="actionTOEFL">
