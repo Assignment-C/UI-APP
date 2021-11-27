@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/image1">
+        <file>back.png</file>
+        <file>home.png</file>
+        <file>NotPng.png</file>
+        <file>notification-icon-3.jpg</file>
+        <file>student.png</file>
+    </qresource>
+</RCC>
